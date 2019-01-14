@@ -1,0 +1,9 @@
+Bandizip
+Chrome
+Everything
+UltraISO
+Java
+VirtualBox
+
+Git
+SourceTree
