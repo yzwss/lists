@@ -1,0 +1,7 @@
+# XShell连接
+centos是没有设置网卡的onboot
+设置后，service network restart，然后ping www.baidu.com通过
+Ubuntu是没有安装openssh
+apt-get update
+apt-get install openssh*
+以上完成之后，就能127.0.0.1:2222 10.0.2.15:22端口转发连接了

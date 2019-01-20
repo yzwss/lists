@@ -8,3 +8,9 @@ VirtualBox
 Git
 SourceTree
 Python
+
+IDEA
+Ubuntu
+CentOS
+NodeJS
+Sublime Text
