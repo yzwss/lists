@@ -5,3 +5,7 @@ Ubuntu是没有安装openssh
 apt-get update
 apt-get install openssh*
 以上完成之后，就能127.0.0.1:2222 10.0.2.15:22端口转发连接了
+
+## 渲染
+后端单向绑定 数据放入ModelMap, controller return一律为字符串，即模板路径
+前端双向绑定 数据return
