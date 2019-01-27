@@ -17,3 +17,6 @@ Sublime Text
 WinSCP
 XShell
 Postman
+
+cpu-z
+hdtune

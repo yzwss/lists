@@ -1,3 +1,17 @@
+# hadoop集群搭建
+https://www.cnblogs.com/qingyunzong/p/8496127.html
+
+# Host Only网卡设置
+static
+enp0s8
+IPADDR
+NETMASK
+
+# 设置字符界面
+cat /etc/inittab
+systemctl get-default
+systemctl set-default multi-user.target
+
 # XShell连接
 centos是没有设置网卡的onboot
 设置后，service network restart，然后ping www.baidu.com通过
