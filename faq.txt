@@ -1,5 +1,11 @@
+# zookeeper集群和hbase搭建
+https://www.imooc.com/video/15592
+bin/zkServer.sh start
+bin/hbase shell
+
 # hadoop集群搭建
 https://www.cnblogs.com/qingyunzong/p/8496127.html
+start-dfs.sh
 
 # Host Only网卡设置
 static
