@@ -2,7 +2,9 @@
 https://www.imooc.com/video/15592
 bin/zkServer.sh start 
 bin/hbase shell
-sudo netstat -nltp | grep 2181   sudo  kill -9 3071 杀掉这个进程，否则2181端口被这个进程占了，zookeeper起不来。还要关闭防火墙，否则zookeeper日志报错的
+sudo netstat -nltp | grep 2181   sudo  kill -9 3071 杀掉这个进程，否则2181端口被这个进程占了，zookeeper起不来。
+还要关闭防火墙，否则zookeeper status报错的Error contacting service. It is probably not running
+还有/etc/hosts中127.0.0.1中不要出现hadoop1这个主机名
 cp ./client-facing-thirdparty/htrace-core-3.1.0-incubating.jar ./ 否则HMaster起不来
 
 # hadoop集群搭建
